@@ -4,7 +4,6 @@ import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 import Toolbar from '@material-ui/core/Toolbar';
 import NavigationBar from './NavigationBar';
 import ScrollTop from './ScrollTop';
-import Footer from './Footer';
 const Layout = ({children,pageName}) => {
     return(
         <>
@@ -18,7 +17,6 @@ const Layout = ({children,pageName}) => {
                     <KeyboardArrowUpIcon />
                     </Fab>
                 </ScrollTop>
-            <Footer />
         </>
     )
 }
